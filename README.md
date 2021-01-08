@@ -60,6 +60,23 @@ $ sudo apt install unzip
 ---
 ## 使用方法
 
+上記の手順で本パッケージとpigpioをインストールした後
+
+```sh
+$ roscd servo
+$ cd scripts
+$ chmod +x pulse.py
+$ chmod +x servo_motor.py
+$ sudo pigpiod
+$ roslaunch servo motor.launch
+```
+以上のコマンドを入力してください。
+
+roslaunch servo motor.launchを実行後、サーボモータが45°ずつ回転します。
+
+回転角度の限界(初期位置から約180°)に到達すると初期位置に戻ります。
+
+プログラムを終了する際は　ctrl + c を入力してください
 
 ---
 ## ライセンス
