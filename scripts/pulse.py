@@ -8,8 +8,6 @@ def moter_pulse():
     rate = rospy.Rate(0.5)
     pulse = 500
     while not rospy.is_shutdown():
-        print('Publiser_pulse = %d'% pulse)
-        
         if(pulse >= 3000):
             pulse = 500
 
