@@ -30,8 +30,40 @@ rosとpigpioを用いてサーボモータを動かします。
 ---
 ## インストール方法
 
+### 本パッケージ
+
+```sh
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/Hiroki-Noguchi0001/ROS_servo.git
+$ cd ~/catkin_ws
+$ catkin_make
+$ source ~/.bashrc
+```
+
+### pigpio
+
+[こちらのサイトを参考しました](http://abyz.me.uk/rpi/pigpio/download.html)
+
+```sh
+$ wget https://github.com/joan2937/pigpio/archive/master.zip
+$ unzip master.zip
+$ cd pigpio-master
+$ make
+$ sudo make install
+```
+unzipがインストールされていない場合は
+```sh
+$ sudo apt install unzip
+```
+でインストールしてください。
+
 ---
 ## 使用方法
 
+
 ---
 ## ライセンス
+
+### ROS : [BSD 3-Clause](https://github.com/Hiroki-Noguchi0001/ROS_servo/blob/master/LICENSE)
+
+### pigpio : [The Unlicense](https://github.com/joan2937/pigpio/blob/master/UNLICENCE)
