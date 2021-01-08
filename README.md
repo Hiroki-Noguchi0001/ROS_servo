@@ -101,6 +101,6 @@ roslaunch servo motor.launchを実行後、サーボモータが約45°ずつ回
 ---
 ## ライセンス
 
-### ROS : [BSD 3-Clause](https://github.com/Hiroki-Noguchi0001/ROS_servo/blob/master/LICENSE)
+### ROS : [BSD 3-Clause "New" or "Revised" License](https://github.com/Hiroki-Noguchi0001/ROS_servo/blob/master/LICENSE)
 
 ### pigpio : [The Unlicense](https://github.com/joan2937/pigpio/blob/master/UNLICENCE)
