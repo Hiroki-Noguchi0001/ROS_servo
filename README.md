@@ -17,7 +17,7 @@ rosとpigpioを用いてサーボモータを動かします。
 
 ・ [Futaba S3003 (サーボモータ)](https://www.rc.futaba.co.jp/servo_air/analog/s3003.html) × 1
 
-   [*S3003のデータシート](http://www.es.co.th/schemetic/pdf/et-servo-s3003.pdf)
+   *Futaba S3003の[データシート](http://www.es.co.th/schemetic/pdf/et-servo-s3003.pdf)
    
 ・ [オスメスジャンパーピン](https://akizukidenshi.com/catalog/g/gC-08934/) × 3
 
