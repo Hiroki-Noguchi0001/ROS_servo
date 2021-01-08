@@ -92,7 +92,7 @@ $ roslaunch servo motor.launch
 ```
 以上のコマンドを入力してください。
 
-roslaunch servo motor.launchを実行後、サーボモータが45°ずつ回転します。
+roslaunch servo motor.launchを実行後、サーボモータが約45°ずつ回転します。
 
 回転角度の限界(初期位置から約180°)に到達すると初期位置に戻ります。
 
