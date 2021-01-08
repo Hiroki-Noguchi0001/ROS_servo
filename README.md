@@ -23,6 +23,22 @@ rosとpigpioを用いてサーボモータを動かします。
 
 ---
 ## 回路図
+![回路図](https://github.com/Hiroki-Noguchi0001/ROS_servo/blob/images/image1.png "回路図")
+
+| servo motor | PIN 番号     |
+|:------------|:-------------|
+| 赤(Vcc)     | : 2 (5V)     |
+| 黒(GND)     | : 39 (GND)   |
+| 白(pulse)   | : 7 (GPIO 4) |
+
+・Vccは5Vのピンであればどこでも問題ありません。
+
+・GNDはGNDのピンであればどこでも問題ありません。
+
+・GPIOに関してはこのパッケージではGPIO 4 のみ対応しております。
+
+＊GPIOを変更したい場合はscript内にある[servo_motor.py](https://github.com/Hiroki-Noguchi0001/ROS_servo/blob/master/scripts/servo_motor.py)
+の5行目のGPIO_PINの数字を変更することでGPIOを変更することができます。
 
 ---
 ## デモ動画
