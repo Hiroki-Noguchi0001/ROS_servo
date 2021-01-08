@@ -43,6 +43,10 @@ rosとpigpioを用いてサーボモータを動かします。
 ---
 ## デモ動画
 
+[![servo](https://github.com/Hiroki-Noguchi0001/ROS_servo/blob/images/image2.jpg)](https://www.youtube.com/watch?v=IvMhjApOxDI)
+
+上の画像をクリックすると動画が再生されます
+
 ---
 ## インストール方法
 
