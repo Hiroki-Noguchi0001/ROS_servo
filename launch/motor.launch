@@ -1,4 +1,0 @@
-<launch>
-	<node pkg="servo" name="pulse_pub" type="pulse.py" required="true" />
-	<node pkg="servo" name="servo_motor_sub" type="servo_motor.py" required="true" />
-</launch>
