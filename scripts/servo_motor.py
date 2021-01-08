@@ -6,7 +6,6 @@ GPIO_PIN = 4
 pi = pigpio.pi()
 
 def callback(pulse):
-    print('Subscriber_palse = %d' %pulse.data)
     pi.set_servo_pulsewidth(GPIO_PIN, pulse.data)
 
 if __name__ == "__main__":
