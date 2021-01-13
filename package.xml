@@ -2,7 +2,7 @@
 <package format="2">
   <name>ROS_servo</name>
   <version>1.0.0</version>
-  <description>The ROS & servo package</description>
+  <description>The ROS_servo package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
